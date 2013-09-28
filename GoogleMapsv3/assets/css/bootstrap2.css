@@ -1,0 +1,70 @@
+
+html,body {
+
+ margin: 0;
+ padding: 0;
+
+}
+
+
+.row {
+	position:absolute;
+	width: 100%; height:100%; 
+
+
+}
+
+
+.carte_grande {
+  float: left; width: 70%; height:100%; background-color: #333;
+}
+
+.cartes {
+  float: left; width: 30%; height:100%;   
+}
+
+.carte_min1 , .carte_min2  {
+  float: left; width: 100%;  height:50%;  background-color: #444;
+}
+#map_canvas {
+       
+	
+	width: 100%;
+	height: 100%;
+	
+}
+
+#map_canvas2 {
+       
+	
+	width: 100%;
+	height: 100%;
+	
+}#map_canvas3{
+       
+	
+	width: 100%;
+	height: 100%;
+	
+}
+@media (max-width: 767px) {
+  body {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  
+  .row,
+  {
+    margin: 0;
+  }
+  .carte_grande,.cartes {
+    
+    float: none;
+    width: auto;
+    margin-left: 0;
+  }
+  .carte_min1 , .carte_min2  {
+    
+    margin-top: 0px;
+  } 
+}

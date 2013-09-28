@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+				<kml xmlns="http://earth.google.com/kml/2.0">
+				  <Document>
+					<name>testFile.kml</name>
+					<Style id="khStyle527">
+						<IconStyle id="khIconStyle529">
+						</IconStyle>
+						<LabelStyle id="khLabelStyle531">
+						</LabelStyle>
+						<LineStyle id="khLineStyle532">
+						<color>ff00ff55</color>
+						</LineStyle>
+						<PolyStyle id="khPolyStyle533">
+						<color>85ffffff</color>
+						<fill>0</fill>
+					</PolyStyle>
+					</Style>
+				<Placemark>
+				<name>Trace de Navigation - testFile.kml</name>
+				<description>Trace enregistrée par Navigation</description>
+				<styleUrl>#khStyle527</styleUrl>
+				<Style>
+				<PolyStyle>
+				<color>4c00ff55</color>
+				<fill>1</fill>
+				</PolyStyle>
+				</Style>
+				<LineString>
+				<extrude>1</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>
+				  
+		3.5937278,43.61505,200.2
+3.9289220,43.64871,206.2
+4.1300385,43.66554,400.2
+4.3479148,43.63369,1000.2
+4.5155119,43.64871,1200.2
+4.0071379,43.68237,5000.2
+4.3423321,43.69920,6000.2
+4.8451235,43.76651,7000.2
+
+ </coordinates>
+
+    				</LineString>
+
+  				</Placemark>
+
+				</Document>
+
+				</kml>
